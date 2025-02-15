@@ -6,6 +6,11 @@ export default defineConfig({
     compilerOptions: {
       customElement: true
     },
-    emitCss: false
-  })]
+    emitCss: false,
+  })],
+  server: {
+    cors: {
+      origin: "*"
+    }
+  }
 })
