@@ -6,6 +6,6 @@
 </script>
 
 <div {...props} class="{props.class} flex gap-x-4 items-center">
-  <Loader class="h-7 fill-green-500"/>
+  <Loader class="h-6 fill-green-500"/>
   <TernaryText>{@render children?.()}</TernaryText>
 </div>

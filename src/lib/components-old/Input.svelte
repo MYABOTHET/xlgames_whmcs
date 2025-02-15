@@ -10,4 +10,4 @@
 
 <input bind:value {...props} class="{props.class}
 {color ? colors.has(color) ? colors.get(color) : colors.get('black') : props.class ? '' : colors.get('black')}
- outline-none py-2 px-4 border rounded-lg text-2xl">
+ outline-hidden py-2 px-4 border rounded-lg text-2xl">

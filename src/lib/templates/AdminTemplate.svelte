@@ -36,7 +36,7 @@
       {#snippet header()}
       <div class="flex gap-x-8">
         <Links bind:current_link {links}/>
-        <div class="relative text-nowrap flex items-center text-2xl">
+        <div class="relative text-nowrap flex items-center text-xl">
           {#if saving}
             <Saving>{saving_message}</Saving>
           {/if}
